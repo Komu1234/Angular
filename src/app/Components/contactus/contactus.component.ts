@@ -25,7 +25,7 @@ export class ContactusComponent {
       message: ['', Validators.required]
     });
 
-    emailjs.init('2QiB59GhmTuXXHvjq');
+    emailjs.init('aL-t0Bn2ilF4o1jgJ');
   }
     sendFeedback() {
     if (this.form.valid) {
